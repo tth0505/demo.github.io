@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Raleway';
+	font-size: 15px;
+	color: black;
+}
+
+.navbar {
+	background-color: #FFCA00 !important;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover {
+    color: white !important;
+}
+.carousel-inner img {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 38%;
+	color: black;
+}
+.carousel-caption h1 {
+	font-size: 400%;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 15px #FFCA00;
+}
+.carousel-caption h3 {
+	font-size: 200%;	
+	text-shadow: 2px 2px 10px #FFCA00;
+}
+
+.welcome hr {
+	border-top: 2px solid rgba(62,44,100, 0.6);
+	width: 95%;	
+	margin-bottom: 2rem;
+}
+
+.social a {
+	font-size: 3em;/*1em = 16px*/
+	padding: 3rem;/*1rem = 1 "font-size" */
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;	
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
+
+.bg {
+	background: url( "../img/logo/2.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.row-container {
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 15vh; /* vh= Viewport's height */
+	padding: 30px;
+	-webkit-box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 22px 5px rgba(0,0,0,0.75);
+	background-color: black;
+}
+label, .form-check-label, h2 {
+	color: white;	
+	text-shadow: 2px 2px 10px #000;
+}
+.emailError, .passwordError {
+	color: red;
+	background-color: blanchedalmond;
+	padding-left: 10px;
+	border-radius: 4px;
+	margin-top: 1px;
+}
+.fa-home {
+	color: #81D8F7;
+}
+.fa-phone {
+	color: rgb(177,43,55);
+}
+.fa-envelope {
+	color: #D76537;
+}
+.fa-home, .fa-phone, .fa-envelope {
+	font-size: 4em;
+	margin: 1rem;
+}
+
+.search input#search{
+  width: 200px;
+  height: 30px;
+  background: white;
+  border: none;
+  font-size: 10pt;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+	margin-top: 9px;
+	padding-left: 10px;
+}
+.search .icon{
+  position: absolute;
+  top: 40%;
+  margin-left: 175px;
+  color: #4f5b66;
+}
+
+
+.ul{
+	width: 240px;
+}
+.left li{
+	height: 35px;           
+    line-height: 35px;     
+    list-style: none; 
+	padding: 0px 10px;
+	margin-top:5px;
+    background-color:#FDD234;
+    border: solid 1px #FFFD00;
+    border-bottom: none; 
+	position: relative;
+	color:black;
+	font-size: 15px;
+	font-weight: 700;
+}
+.left a{
+	text-decoration:none;
+}
+.left li:hover{
+	background-color:#FDD234;
+	color:white;
+}
+
+.prod{
+	width:230px;
+	height:300px;
+	text-align:center;
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+	color: black;
+}
+.prod:hover{
+	box-shadow: 0px 0px 1px black;
+}
+.prod img{
+	width: 230px;
+	height:230px;
+}
+.phantrang{
+	width:100%;
+	height: 15px;
+	margin-top: 630px;
+	text-align: center;
+	position: relative;
+}
+.img-ct{
+	width: 250px;
+	height: 250px;
+	float: left;
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+.noidung{
+	position: relative;
+	top: 15px;
+	left:20px;
+}
+.noidung h3{
+	font-size: 20px;
+	text-align: center;
+}
+.phantrang-qt{
+	width:100%;
+	height: 15px;
+	margin-top: 1px;
+	text-align: center;
+	position: relative;
+}
+.content .login-4 table tr td{
+	padding-top: 7px;
+}
+.login-4 table tr td input[type="submit"] {
+	width:120px;
+	height: 45px;
+
+}
+.login-4 table tr td input[type="reset"] {
+	width:120px;
+	height: 45px;
+}
+.login-3 table tr td input[type="submit"] {
+	width:70px;
+	height: 30px;
+
+}
+.login-3 table tr td input[type="reset"] {
+	width:70px;
+	height: 30px;
+}
